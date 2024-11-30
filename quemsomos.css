@@ -1,0 +1,189 @@
+ /* Resetando margens e padding */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+}
+
+header {
+    background-color: #1477AE;
+    color: white;
+    padding: 70px;
+    position: relative;
+}
+
+/* Título no canto superior esquerdo */
+header .titulo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin: 0;
+    font-size: 50px;
+    font-family: serif;
+    color: white;
+    text-decoration: none;
+}
+/* links do Header */
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    gap: 30px;
+}
+
+.linkpagina2{
+    color: white;
+    text-decoration: none;
+}
+.linkpagina2:hover{
+    color: #dfdfdf;
+    text-decoration: underline;
+}
+.facacadastro{
+    color: white;
+    text-decoration: none;
+}
+.facacadastro:hover{
+    color: #dfdfdf;
+    text-decoration: underline;
+}
+.quemsomos{
+    color: white;
+    text-decoration: none;
+}
+.quemsomos:hover{
+    color: #dfdfdf;
+    text-decoration: underline;
+}
+
+/* Barra de pesquisa centralizada */
+.barradepesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.barradepesquisa input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.barradepesquisa button {
+    padding: 10px 15px;
+    background-color: #0c5f7a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.barradepesquisa button:hover {
+    background-color: #0a4f63;
+}
+
+main {
+text-align: center;
+ padding: 40px 20px;
+}
+
+.caixas {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+margin-top: 20px;
+}
+
+.caixa {
+background: rgba(255, 255, 255, 0.897);
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+padding: 20px;
+max-width: 300px;
+height: 325px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.caixa h2 {
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+.caixa p {
+font-size: 1rem;
+
+}
+
+#formulario{
+   margin-top: 100px;
+   margin-left: 780px;
+   width: 300px;
+   
+}
+#formulario fieldset{
+    padding: 15px;
+    height: 330px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#formulario button{
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#formulario button:hover {
+    background-color: #218838;
+}
+#formulario input{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+#formulario textarea{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+background-color: #002f62;
+padding: 20px;
+text-align: center;
+
+margin-top: 100px;
+}
+
+footer p {
+margin: 5px 0;
+color: white;
+}
+
+footer a {
+color: #0084ff;
+text-decoration: none;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
